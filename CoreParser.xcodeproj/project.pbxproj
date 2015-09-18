@@ -15,6 +15,10 @@
 		E127615F1BAAB97500145ADF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E127615D1BAAB97500145ADF /* LaunchScreen.storyboard */; };
 		E127616A1BAAB97500145ADF /* CoreParserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E12761691BAAB97500145ADF /* CoreParserTests.m */; };
 		E12761751BAAB97500145ADF /* CoreParserUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E12761741BAAB97500145ADF /* CoreParserUITests.m */; };
+		E12761841BAABB4200145ADF /* CPToken.m in Sources */ = {isa = PBXBuildFile; fileRef = E12761831BAABB4200145ADF /* CPToken.m */; settings = {ASSET_TAGS = (); }; };
+		E12761871BAABB5100145ADF /* CPParser.m in Sources */ = {isa = PBXBuildFile; fileRef = E12761861BAABB5100145ADF /* CPParser.m */; settings = {ASSET_TAGS = (); }; };
+		E127618A1BAAF22C00145ADF /* CPASTNode.m in Sources */ = {isa = PBXBuildFile; fileRef = E12761891BAAF22C00145ADF /* CPASTNode.m */; settings = {ASSET_TAGS = (); }; };
+		E127618D1BAAF29100145ADF /* CPAST.m in Sources */ = {isa = PBXBuildFile; fileRef = E127618C1BAAF29100145ADF /* CPAST.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,14 @@
 		E12761701BAAB97500145ADF /* CoreParserUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreParserUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E12761741BAAB97500145ADF /* CoreParserUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreParserUITests.m; sourceTree = "<group>"; };
 		E12761761BAAB97500145ADF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E12761821BAABB4200145ADF /* CPToken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPToken.h; sourceTree = "<group>"; };
+		E12761831BAABB4200145ADF /* CPToken.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPToken.m; sourceTree = "<group>"; };
+		E12761851BAABB5100145ADF /* CPParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPParser.h; sourceTree = "<group>"; };
+		E12761861BAABB5100145ADF /* CPParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPParser.m; sourceTree = "<group>"; };
+		E12761881BAAF22C00145ADF /* CPASTNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPASTNode.h; sourceTree = "<group>"; };
+		E12761891BAAF22C00145ADF /* CPASTNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPASTNode.m; sourceTree = "<group>"; };
+		E127618B1BAAF29100145ADF /* CPAST.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPAST.h; sourceTree = "<group>"; };
+		E127618C1BAAF29100145ADF /* CPAST.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPAST.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +122,14 @@
 				E127615D1BAAB97500145ADF /* LaunchScreen.storyboard */,
 				E12761601BAAB97500145ADF /* Info.plist */,
 				E127614F1BAAB97400145ADF /* Supporting Files */,
+				E12761821BAABB4200145ADF /* CPToken.h */,
+				E12761831BAABB4200145ADF /* CPToken.m */,
+				E12761851BAABB5100145ADF /* CPParser.h */,
+				E12761861BAABB5100145ADF /* CPParser.m */,
+				E12761881BAAF22C00145ADF /* CPASTNode.h */,
+				E12761891BAAF22C00145ADF /* CPASTNode.m */,
+				E127618B1BAAF29100145ADF /* CPAST.h */,
+				E127618C1BAAF29100145ADF /* CPAST.m */,
 			);
 			path = CoreParser;
 			sourceTree = "<group>";
@@ -270,9 +290,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E127618D1BAAF29100145ADF /* CPAST.m in Sources */,
+				E12761841BAABB4200145ADF /* CPToken.m in Sources */,
 				E12761571BAAB97500145ADF /* ViewController.m in Sources */,
+				E12761871BAABB5100145ADF /* CPParser.m in Sources */,
 				E12761541BAAB97400145ADF /* AppDelegate.m in Sources */,
 				E12761511BAAB97400145ADF /* main.m in Sources */,
+				E127618A1BAAF22C00145ADF /* CPASTNode.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
